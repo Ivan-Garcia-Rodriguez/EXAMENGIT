@@ -1,7 +1,7 @@
 Proceso ProgramaGIT
 	
 	// Programa para almacenar los nombres de los alumnos de una clase y listarlos posteriormente
-	
+	//Definimos variables
 	Definir i como entero;
 	Definir nombre Como Caracter;
 	
