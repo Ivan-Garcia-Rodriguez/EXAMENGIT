@@ -4,11 +4,12 @@ Proceso ProgramaGIT
 	//Definimos variables
 	Definir i como entero;
 	Definir nombre Como Caracter;
+	Definir numalumnos Como Entero;
+	Escribir "¿Cuantos alumnos tienes?";
+	Leer numalumnos;
+	Dimension nombre[numalumnos];    // el VEctor para guardar los nombres, mi programa solo permite guardar 10 alumnos en esta versi?n inicial
 	
-	
-	Dimension nombre[10];    // el VEctor para guardar los nombres, mi programa solo permite guardar 10 alumnos en esta versi?n inicial
-	
-	Para i<-0 hasta 10
+	Para i<-0 hasta numalumnos
 		Escribir "Introduzca el nombre del alumno ",i+1;
 		leer nombre[i];
 	FinPara
